@@ -26,8 +26,26 @@ a.navbar-brand {
   letter-spacing: 1px;
 }
 
-footer p {
-    opacity: .3;
+.cover-container {
+  background: linear-gradient(-45deg, #000000, #1E1C1C, #262626, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.f-text p {
+    opacity: .2;
 }
 
 .m-text p {
