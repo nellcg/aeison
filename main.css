@@ -1,0 +1,38 @@
+/* Import fonts
+-------------------------------------------------- */
+@import "font/stylesheet.css";
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+h1, p {
+  color: white;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight:600;
+}
+
+a.navbar-brand {
+  font-family: 'urw_din_semicondbold', Arial, sans-serif;
+  font-weight:800;
+  letter-spacing: 1px;
+}
+
+footer p {
+    opacity: .3;
+}
+
+.m-text p {
+    padding-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+}
