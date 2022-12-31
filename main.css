@@ -10,6 +10,10 @@ main > .container {
   padding: 60px 15px 0;
 }
 
+body {
+  background-color: black;
+}
+
 h1, p {
   color: white;
 }
