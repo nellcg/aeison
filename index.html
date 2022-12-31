@@ -128,14 +128,13 @@
 </main>
 -->
 
-
-
-<div class="cover-container text-center min-vh-100 d-flex p-3 mx-auto flex-column bg-blur">
+<div class="cover-container text-center min-vh-100 d-flex p-3 mx-auto flex-column background--custom">
   <!--
   <main class="px-3 row align-items-center" style="min-height: 90vh">
     <h1>Everything is designed.<br/>Few things are designed well.</h1>
   </main>
 -->
+
   <main class="mx-auto">
     <div class="m-text position-absolute top-50 start-50 translate-middle">
       <img src="images/logo/aeison.svg" alt="" width="auto" height="50">
@@ -145,6 +144,7 @@
       <p>aeison &copy;2023</p>
     </div>
   </main>
+  <canvas id="canvas" />
 
 <!--
   <footer class="mt-auto text-black-50 px-3">
@@ -163,6 +163,11 @@
 -->
 
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+<script>
+var gradient = new Gradient();
+gradient.initGradient("#canvas");
+</script>
 
 
   </body>
