@@ -32,6 +32,13 @@ a.navbar-brand {
 	animation: gradient 15s ease infinite;
 }
 
+.bg-blur {
+  background-image: url('images/black_blur.gif');
+  background-size: cover;
+  background-color: black;
+}
+
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
