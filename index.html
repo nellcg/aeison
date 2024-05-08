@@ -140,7 +140,7 @@
 </main>
 -->
 
-<div class="cover-container text-center min-vh-100 d-flex mx-auto background--custom">
+<div class="cover-container text-center min-vh-100 d-flex mx-auto">
   <!--
   <img src="images/logo/aeison_type.svg" alt="" width="auto" height="18" class="aeison-type">
   
@@ -149,21 +149,26 @@
   </main>
 -->
 
+<video autoplay muted loop id="newVideo">
+<source src="video/new_bk.mp4" type="video/mp4">
+<source src="video/new_bk.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
   <main class="mx-auto shrink">
     <!--
     <img src="images/logo/aeison-typeface.svg" alt="" width="auto" height="18" style="margin-top:30px;">
     -->
     <div class="m-text position-absolute top-50 start-50 translate-middle">
-      <img src="images/logo/aeison.svg" alt="" width="auto" height="50">
-      <p>Coming Summer 2024</p>
+      <img src="images/logo/aeison.svg" alt="" width="auto" height="50" class="light-shadow">
+      <p>Summer 2024</p>
     </div>
-    <div class="f-bottom f-text position-absolute bottom-0 start-50 translate-middle-x">
+    <div class="f-bottom f-text position-absolute bottom-0 start-50 translate-middle-x light-shadow">
       <p>aeison studios&copy; 2024</p>
     </div>
   </main>
+  <!--
   <canvas id="canvas" />
-
-<!--
   <footer class="mt-auto text-black-50 px-3">
     <p>Everything is designed. Few things are designed well.</p>
   </footer>
@@ -181,10 +186,12 @@
 
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+<!--
 <script>
 var gradient = new Gradient();
 gradient.initGradient("#canvas");
 </script>
+-->
 
 
   </body>
